@@ -1,0 +1,10 @@
+#basic-navbar-nav{
+    justify-content:right !important;
+}
+.me-auto{
+    min-width: 100%;
+    justify-content: right;
+}
+.navBtn{
+    margin: 0 15px;
+}
