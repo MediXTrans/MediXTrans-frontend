@@ -12,9 +12,9 @@ function BasicExample() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="me-auto" >
-            <Nav.Link className='navBtn' href="#home">Home</Nav.Link>
-            <Nav.Link className='navBtn' href="#link">Transcript</Nav.Link>
-            <Nav.Link className='navBtn' href="#link">About Us</Nav.Link>
+            <Nav.Link className='navBtn' href="home">Home</Nav.Link>
+            <Nav.Link className='navBtn' href="transcript">Transcript</Nav.Link>
+            <Nav.Link className='navBtn' href="aboutUs">About Us</Nav.Link>
             {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
