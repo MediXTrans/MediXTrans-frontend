@@ -160,12 +160,10 @@ export default function AnyComponent() {
       <button onClick={isRecording ? stopSpeechToText : startSpeechToText}>
         {isRecording ? 'Stop Recording' : 'Start Recording'}
       </button>
-      <ul>
         {results.map((result) => (
-          <li key={result.timestamp}>{result.transcript}</li>
+          <p key={result.timestamp}>{result.transcript}</p>
         ))}
-        {interimResult && <li>{interimResult}</li>}
-      </ul>
+        {interimResult && <p>{interimResult}</p>}
     </div>
   );
 }
