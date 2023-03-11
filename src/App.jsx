@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar/Navbar'
 import Home from './components/Home/Home'
 import Transcript from './components/Transcript/Transcript'
+import AboutUs from './components/About Us/AboutUs'
 
 import {
   createBrowserRouter,
@@ -18,6 +19,7 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path='/home' element={<Home />} />
       <Route path="/transcript" element={<Transcript />} />
+      <Route path="/aboutUs" element={<AboutUs />} />
       {/* <Route path="/register" element={<Register />} />
       <Route path="/profile/:username" element={<Profile />} />  */}
     </Route>
@@ -27,7 +29,10 @@ const router = createBrowserRouter(
 
 function App() {
   return (
-    <RouterProvider router={router} />
+    <>
+      <Navbar />
+      <RouterProvider router={router} />
+    </>
   );
 }
 
