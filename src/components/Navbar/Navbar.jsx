@@ -6,9 +6,10 @@ import './Navbar.css'
 
 function BasicExample() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar id='navbar' bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">MedicXTrans</Navbar.Brand>
+        <img width={"50px"} height={"50px"} src="https://static.vecteezy.com/system/resources/previews/009/161/399/non_2x/mxt-letter-logo-design-with-polygon-shape-mxt-polygon-and-cube-shape-logo-design-mxt-hexagon-logo-template-white-and-black-colors-mxt-monogram-business-and-real-estate-logo-vector.jpg" alt="" srcset="" />
+        <Navbar.Brand href="/"><i><b>MedicXTrans</b></i></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="me-auto" >
