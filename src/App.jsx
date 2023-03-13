@@ -26,7 +26,6 @@ const router = createBrowserRouter(
   )
 );
 
-
 function App() {
   return (
     <>
@@ -37,3 +36,30 @@ function App() {
 }
 
 export default App;
+// import React from "react";
+// import SpeechRecognition, {
+//   useSpeechRecognition,
+// } from "react-speech-recognition";
+
+// const App = () => {
+//   const {
+//     transcript,
+//     listening,
+//     resetTranscript,
+//     browserSupportsSpeechRecognition,
+//   } = useSpeechRecognition({});
+
+//   if (!SpeechRecognition.browserSupportsSpeechRecognition()) {
+//     return null;
+//   }
+
+//   return (
+//     <div>
+//       <button onClick={SpeechRecognition.startListening}>Start</button>
+//       <button onClick={SpeechRecognition.stopListening}>Stop</button>
+//       <button onClick={resetTranscript}>Reset</button>
+//       <p>{transcript}</p>
+//     </div>
+//   );
+// };
+// export default App;
